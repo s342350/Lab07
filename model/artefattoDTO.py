@@ -16,7 +16,7 @@ class Artefatto:
         return isinstance(other, Artefatto) and self.id == other.id
 
     def __str__(self):
-        return f"{self.id} | {self.nome} | Tipologia: {self.tipologia} | Epoca: {self.epoca} | Museo: {self.id_museo}"
+        return f"{self.id} - {self.nome} - Tipologia: {self.tipologia} | Epoca: {self.epoca} | Museo: {self.id_museo}"
 
     def __repr__(self):
-        return f"{self.id} | {self.nome} | Tipologia: {self.tipologia} | Epoca: {self.epoca} | Museo: {self.id_museo}"
+        return f"{self.id} - {self.nome} - Tipologia: {self.tipologia} | Epoca: {self.epoca} | Museo: {self.id_museo}"
